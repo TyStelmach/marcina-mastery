@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import DataTable from '../structures/datatable';
 
 class Lucina extends Component {
   render() {
     return (
-      <h1>Lucina</h1>
+      <div>
+        <DataTable />
+      </div>
     )
   }
 }

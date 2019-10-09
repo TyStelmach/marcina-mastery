@@ -1,0 +1,569 @@
+
+[
+  {
+    "id": 1,
+    "name": "Mario",
+    "icon": "",
+    "fallspeed": 1.5,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 2,
+    "name": "Donkey Kong",
+    "icon": "",
+    "fallspeed": 1.63,
+    "weightclass": "Super Heavyweight"
+  },
+  {
+    "id": 3,
+    "name": "Link",
+    "icon": "",
+    "fallspeed": 1.6,
+    "weightclass": "Heavyweight"
+  },
+  {
+    "id": 4,
+    "name": "Samus",
+    "icon": "",
+    "fallspeed": 1.33,
+    "weightclass": "Heavyweight"
+  },
+  {
+    "id": 5,
+    "name": "Dark Samus",
+    "icon": "",
+    "fallspeed": 1.33,
+    "weightclass": "Heavyweight"
+  },
+  {
+    "id": 6,
+    "name": "Yoshi",
+    "icon": "",
+    "fallspeed": 1.29,
+    "weightclass": "Heavyweight"
+  },
+  {
+    "id": 7,
+    "name": "Kirby",
+    "icon": "",
+    "fallspeed": 73,
+    "weightclass": "Featherweight"
+  },
+  {
+    "id": 8,
+    "name": "Fox",
+    "icon": "",
+    "fallspeed": 2.1,
+    "weightclass": "Featherweight"
+  },
+  {
+    "id": 9,
+    "name": "Pikachu",
+    "icon": "",
+    "fallspeed": 1.55,
+    "weightclass": "Featherweight"
+  },
+  {
+    "id": 10,
+    "name": "Luigi",
+    "icon": "",
+    "fallspeed": 1.32,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 11,
+    "name": "Ness",
+    "icon": "",
+    "fallspeed": 1.31,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 12,
+    "name": "Captain Falcon",
+    "icon": "",
+    "fallspeed": 1.865,
+    "weightclass": "Heavyweight"
+  },
+  {
+    "id": 13,
+    "name": "Jigglypuff",
+    "icon": "",
+    "fallspeed": 0.98,
+    "weightclass": "Featherweight"
+  },
+  {
+    "id": 14,
+    "name": "Peach",
+    "icon": "",
+    "fallspeed": 1.19,
+    "weightclass": "Lightweight"
+  },
+  {
+    "id": 15,
+    "name": "Daisy",
+    "icon": "",
+    "fallspeed": 1.19,
+    "weightclass": "Lightweight"
+  },
+  {
+    "id": 16,
+    "name": "Bowser",
+    "icon": "",
+    "fallspeed": 1.77,
+    "weightclass": "Super Heavyweight"
+  },
+  {
+    "id": 17,
+    "name": "Ice Climbers",
+    "icon": "",
+    "fallspeed": 1.3,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 18,
+    "name": "Sheik",
+    "icon": "",
+    "fallspeed": 1.75,
+    "weightclass": "Featherweight"
+  },
+  {
+    "id": 19,
+    "name": "Zelda",
+    "icon": "",
+    "fallspeed": 1.35,
+    "weightclass": "Lightweight"
+  },
+  {
+    "id": 20,
+    "name": "Dr. Mario",
+    "icon": "",
+    "fallspeed": 1.5,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 21,
+    "name": "Pichu",
+    "icon": "",
+    "fallspeed": 1.9,
+    "weightclass": "Balloonweight"
+  },
+  {
+    "id": 22,
+    "name": "Falco",
+    "icon": "",
+    "fallspeed": 1.8,
+    "weightclass": "Featherweight"
+  },
+  {
+    "id": 23,
+    "name": Marth.name,
+    "icon": "",
+    "fallspeed": 1.58,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 24,
+    "name": Lucina.name,
+    "icon": "",
+    "fallspeed": 1.58,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 25,
+    "name": "Young Link",
+    "icon": "",
+    "fallspeed": 1.8,
+    "weightclass": "Lightweight"
+  },
+  {
+    "id": 26,
+    "name": "Ganondorf",
+    "icon": "",
+    "fallspeed": 1.65,
+    "weightclass": "Super Heavyweight"
+  },
+  {
+    "id": 27,
+    "name": "Mewtwo",
+    "icon": "",
+    "fallspeed": 1.55,
+    "weightclass": "Featherweight"
+  },
+  {
+    "id": 28,
+    "name": "Roy",
+    "icon": "",
+    "fallspeed": 1.8,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 29,
+    "name": "Chrom",
+    "icon": "",
+    "fallspeed": 1.8,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 30,
+    "name": "Mr. Game & Watch",
+    "icon": "",
+    "fallspeed": 1.24,
+    "weightclass": "Featherweight"
+  },
+  {
+    "id": 31,
+    "name": "Meta Knight",
+    "icon": "",
+    "fallspeed": 1.68,
+    "weightclass": "Featherweight"
+  },
+  {
+    "id": 32,
+    "name": "Pit",
+    "icon": "",
+    "fallspeed": 1.48,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 33,
+    "name": "Dark Pit",
+    "icon": "",
+    "fallspeed": 1.48,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 34,
+    "name": "Zero Suit Samus",
+    "icon": "",
+    "fallspeed": 1.7,
+    "weightclass": "Featherweight"
+  },
+  {
+    "id": 35,
+    "name": "Wario",
+    "icon": "",
+    "fallspeed": 1.61,
+    "weightclass": "Heavyweight"
+  },
+  {
+    "id": 36,
+    "name": "Snake",
+    "icon": "",
+    "fallspeed": 1.73,
+    "weightclass": "Heavyweight"
+  },
+  {
+    "id": 37,
+    "name": "Ike",
+    "icon": "",
+    "fallspeed": 1.65,
+    "weightclass": "Heavyweight"
+  },
+  {
+    "id": 38,
+    "name": "Pokemon Trainer - Squirtle",
+    "icon": "",
+    "fallspeed": 1.35,
+    "weightclass": "Featherweight"
+  },
+  {
+    "id": 39,
+    "name": "Pokemon Trainer - Ivysaur",
+    "icon": "",
+    "fallspeed": 1.38,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 40,
+    "name": "Pokemon Trainer - Charizard",
+    "icon": "",
+    "fallspeed": 1.52,
+    "weightclass": "Super Heavyweight"
+  },
+  {
+    "id": 41,
+    "name": "Diddy Kong",
+    "icon": "",
+    "fallspeed": 1.75,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 42,
+    "name": "Lucas",
+    "icon": "",
+    "fallspeed": 1.37,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 43,
+    "name": "Sonic",
+    "icon": "",
+    "fallspeed": 1.65,
+    "weightclass": "Lightweight"
+  },
+  {
+    "id": 44,
+    "name": "King Dedede",
+    "icon": "",
+    "fallspeed": 1.95,
+    "weightclass": "Super Heavyweight"
+  },
+  {
+    "id": 45,
+    "name": "Olimar",
+    "icon": "",
+    "fallspeed": 1.35,
+    "weightclass": "Featherweight"
+  },
+  {
+    "id": 46,
+    "name": "Lucario",
+    "icon": "",
+    "fallspeed": 1.68,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 47,
+    "name": "R.O.B",
+    "icon": "",
+    "fallspeed": 1.6,
+    "weightclass": "Heavyweight"
+  },
+  {
+    "id": 48,
+    "name": "Toon Link",
+    "icon": "",
+    "fallspeed": 1.38,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 49,
+    "name": "Wolf",
+    "icon": "",
+    "fallspeed": 1.8,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 50,
+    "name": "Villager",
+    "icon": "",
+    "fallspeed": 1.32,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 51,
+    "name": "Mega Man",
+    "icon": "",
+    "fallspeed": "",
+    "weightclass": ""
+  },
+  {
+    "id": 52,
+    "name": "Wii Fit Trainer",
+    "icon": "",
+    "fallspeed": 1.3,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 53,
+    "name": "Rosalina & Luma",
+    "icon": "",
+    "fallspeed": 1.2,
+    "weightclass": "Featherweight"
+  },
+  {
+    "id": 54,
+    "name": "Little Mac",
+    "icon": "",
+    "fallspeed": 1.95,
+    "weightclass": "Lightweight"
+  },
+  {
+    "id": 55,
+    "name": "Greninja",
+    "icon": "",
+    "fallspeed": 1.85,
+    "weightclass": "Lightweight"
+  },
+  {
+    "id": 56,
+    "name": "Mii Brawler",
+    "icon": "",
+    "fallspeed": 1.92,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 57,
+    "name": "Mii Swordfighter",
+    "icon": "",
+    "fallspeed": 1.55,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 58,
+    "name": "Mii Gunner",
+    "icon": "",
+    "fallspeed": 1.45,
+    "weightclass": "Heavyweight"
+  },
+  {
+    "id": 59,
+    "name": "Palutena",
+    "icon": "",
+    "fallspeed": 1.55,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 60,
+    "name": "PAC-MAN",
+    "icon": "",
+    "fallspeed": 1.35,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 61,
+    "name": "Robin",
+    "icon": "",
+    "fallspeed": 1.5,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 62,
+    "name": "Shulk",
+    "icon": "",
+    "fallspeed": 1.58,
+    "weightclass": "Middlewweight"
+  },
+  {
+    "id": 63,
+    "name": "Bowser Jr.",
+    "icon": "",
+    "fallspeed": 1.65,
+    "weightclass": "Heavyweight"
+  },
+  {
+    "id": 64,
+    "name": "Duck Hunt Duo",
+    "icon": "",
+    "fallspeed": 1.65,
+    "weightclass": "Lightweight"
+  },
+  {
+    "id": 65,
+    "name": "Ryu",
+    "icon": "",
+    "fallspeed": 1.6,
+    "weightclass": "Heavyweight"
+  },{
+    "id": 66,
+    "name": "Ken",
+    "icon": "",
+    "fallspeed": 1.6,
+    "weightclass": "Heavyweight"
+  },
+  {
+    "id": 67,
+    "name": "Cloud",
+    "icon": "",
+    "fallspeed": 1.68,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 68,
+    "name": "Corrin",
+    "icon": "",
+    "fallspeed": 1.65,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 69,
+    "name": "Bayonetta",
+    "icon": "",
+    "fallspeed": 1.77,
+    "weightclass": "Featherweight"
+  },
+  {
+    "id": 70,
+    "name": "Inkling",
+    "icon": "",
+    "fallspeed": 1.58,
+    "weightclass": "Middleweight"
+  },
+  {
+    "id": 71,
+    "name": "Ridey",
+    "icon": "",
+    "fallspeed": 1.78,
+    "weightclass": "Heavyweight"
+  },
+  {
+    "id": 72,
+    "name": "Simon",
+    "icon": "",
+    "fallspeed": 1.85,
+    "weightclass": "Heavyweight"
+  },
+  {
+    "id": 73,
+    "name": "Richter",
+    "icon": "",
+    "fallspeed": 1.85,
+    "weightclass": "Heavyweight"
+  },
+  {
+    "id": 74,
+    "name": "King K. Rool",
+    "icon": "",
+    "fallspeed": 1.7,
+    "weightclass": "Super Heavyweight"
+  },
+  {
+    "id": 75,
+    "name": "Isabelle",
+    "icon": "",
+    "fallspeed": 1.3,
+    "weightclass": "Lightweight"
+  },
+  {
+    "id": 76,
+    "name": "Incineroar",
+    "icon": "",
+    "fallspeed": 1.76,
+    "weightclass": "Super Heavyweight"
+  },
+  {
+    "id": 77,
+    "name": "Piranha Plant",
+    "icon": "",
+    "fallspeed": 1.95,
+    "weightclass": "Heavyweight"
+  },
+  {
+    "id": 78,
+    "name": "Joker",
+    "icon": "",
+    "fallspeed": "",
+    "weightclass": ""
+  },
+  {
+    "id": 79,
+    "name": "Hero",
+    "icon": "",
+    "fallspeed": "",
+    "weightclass": ""
+  },
+  {
+    "id": 80,
+    "name": "Banjo & Kazooie",
+    "icon": "",
+    "fallspeed": "",
+    "weightclass": ""
+  },
+  {
+    "id": 81,
+    "name": "Terry",
+    "icon": "",
+    "fallspeed": "",
+    "weightclass": ""
+  }
+]

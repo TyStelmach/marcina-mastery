@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import CharacterData from '../../data/marcina.json';
+import TableHead from './tablehead';
+import LucinaData from '../../data/lucina.json';
 import {Table, thead, tr, th, td } from 'react-bootstrap';
 
 class DataTable extends Component {
@@ -7,25 +8,20 @@ class DataTable extends Component {
     return (
     <div>
         <Table responsive>
-            <thead>
-                <tr>
-                    <th>True</th>
-                    <th>Name</th>
-                    <th>Inputs</th>
-                    <th>Damage (Aprx)</th>
-                    <th>Hit Count</th>
-                    <th>Life Term</th>
-                    <th>Effective for</th>
-                </tr>
-            </thead>
+            <TableHead />
             <tbody>
-                {CharacterData.map((character, index) => {
-                   return (
+                {LucinaData[this.props.comboType].map((combo) => {
+                    return (
                         <tr>
-                            <td>
-                                {character.name}
-                            </td>
+                            <td>{combo.truality ? 'true': 'false'}</td>
+                            <td>{combo.name}</td>
+                            <td>{combo.inputs}</td>
+                            <td>{combo.approx_dmg}</td>
+                            <td>{combo.hitcount}</td>
+                            <td>{combo.term}</td>
+                            <td>{combo.true_on}</td>
                         </tr>
+                        
                     )
                 })}
             </tbody>

@@ -29,7 +29,12 @@ class App extends Component {
 
         <Navbar bg="primary" variant="dark">
           <Container>
-            <p>Disclaimer....</p>
+            <Row>
+              <Col>
+                <p>Combos and information founded by the members of the <a href="#">Marcina Discord</a></p>
+                <p>Website and information built and compiled by <a href="#">Fugazi</a></p>
+              </Col>
+            </Row>
           </Container>
         </Navbar>
       </div>

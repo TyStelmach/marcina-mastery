@@ -7,7 +7,7 @@ class DataTable extends Component {
   render() {
     return (
     <div>
-        <Table responsive>
+        <Table responsive striped bordered hover>
             <TableHead />
             <tbody>
                 {LucinaData[this.props.comboType].map((combo) => {
@@ -16,10 +16,10 @@ class DataTable extends Component {
                             <td>{combo.truality ? 'true': 'false'}</td>
                             <td>{combo.name}</td>
                             <td>{combo.inputs}</td>
-                            <td>{combo.approx_dmg}</td>
+                            <td>{combo.approx_dmg}%</td>
                             <td>{combo.hitcount}</td>
                             <td>{combo.term}</td>
-                            <td>{combo.true_on}</td>
+                            <td>{combo.true_on.join(', ')}</td>
                         </tr>
                         
                     )

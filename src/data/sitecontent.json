@@ -1,0 +1,65 @@
+
+{
+    "homepage": [
+        {
+            "homepage_hero_header": "Mastering the art of the echo fighters",
+            "homepage_hero_description": "Marcina focused labbing discord and information to help you get better at the character.",
+            "homepage_hero_image_src": "",
+            "homepage_hero_image_alt": "",
+            "homepage_hero_cta_text": "Learn More",
+            "homepage_hero_cta_link": "#",
+
+            "homepage_info_header": "Marcina Quick Guide",
+            "homepage_info_description": "Use the following links to get to get to what you need quickly.",
+            "homepage_info_card1_icon": "",
+            "homepage_info_card1_header": "Best Stages",
+            "homepage_info_card1_description": "Learn the best counterpicks..",
+            "homepage_info_card1_text": "Learn Stages",
+            "homepage_info_card1_link": "#",
+
+            "homepage_info_card2_icon": "",
+            "homepage_info_card2_header": "Best ...",
+            "homepage_info_card2_description": "Learn the best counterpicks..",
+            "homepage_info_card2_text": "Learn ...",
+            "homepage_info_card2_link": "#",
+
+            "homepage_info_card3_icon": "",
+            "homepage_info_card3_header": "Best ...",
+            "homepage_info_card3_description": "Learn the best counterpicks..",
+            "homepage_info_card3_text": "Learn ...",
+            "homepage_info_card3_link": "#",
+
+            "homepage_closer_header": "Hit the lab!",
+            "homepage_closer_description": "Report your findings to the Marcina discord.",
+            "homepage_closer_cta_text": "Discord",
+            "homepage_closer_cta_link": "#"
+        }
+    ],
+
+    "about": [],
+
+    "marth": [],
+
+    "lucina": [
+        {
+            "lucina_hero_header": "Lucina, the Warrior Princess",
+            "lucina_hero_description": "Lucina lacks a tipper, so free kills bby",
+            "lucina_hero_image_src": "../../images/Lucina-blob-bg.png",
+            "lucina_hero_image_alt": "Lucina, the Warrior Princess",
+            "lucina_hero_cta_text": "",
+            "lucina_hero_cta_link": "",
+            
+            "lucina_tabber_grounded_combo_header": "Grounded Combos",
+            "lucina_tabber_grounded_combo_description": "Grounded combos are combo strings that will be initiated from the ground. These can be done out of dashes, but most commonly will start with a tilt attack.",
+
+            "lucina_tabber_aerial_combo_header": "Aerial Combos",
+            "lucina_tabber_aerial_combo_description": "Aerial combos are combo strings that will be initiations from an aerial attack. They are a little more precise as some combos will need to be started with specifc hops (short/full), fastfalls, buffering and spacing.",
+
+            "lucina_tabber_throw_combo_header": "Throw Combos",
+            "lucina_tabber_throw_combo_description": "The Marcina duo doesn't get too many True Combos out of throws, but it can lead to many follow ups. These combos will start with a grab.",
+
+            "lucina_tabber_dancingblade_combo_header": "",
+            "lucina_tabber_dancingblade_combo_description": ""
+        }
+    ]
+}

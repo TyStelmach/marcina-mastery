@@ -38,7 +38,27 @@
 
     "about": [],
 
-    "marth": [],
+    "marth": [
+        {   
+            "marth_hero_header": "Marth, the Hero King",
+            "marth_hero_description": "Tipper dawg...",
+            "marth_hero_image_src": "../../images/Marth-blob-bg.png",
+            "marth_hero_image_alt": "Marth, the Hero King",
+            "marth_hero_cta_text": "",
+            "marth_hero_cta_link": "",
+            
+            "marth_tabber_grounded_combo_header": "Grounded Combos",
+            "marth_tabber_grounded_combo_description": "Grounded combos are combo strings that will be initiated from the ground. These can be done out of dashes, but most commonly will start with a tilt attack.",
+
+            "marth_tabber_aerial_combo_header": "Aerial Combos",
+            "marth_tabber_aerial_combo_description": "Aerial combos are combo strings that will be initiations from an aerial attack. They are a little more precise as some combos will need to be started with specifc hops (short/full), fastfalls, buffering and spacing.",
+
+            "marth_tabber_throw_combo_header": "Throw Combos",
+            "marth_tabber_throw_combo_description": "The Marcina duo doesn't get too many True Combos out of throws, but it can lead to many follow ups. These combos will start with a grab.",
+
+            "marth_tabber_dancingblade_combo_header": "",
+            "marth_tabber_dancingblade_combo_description": ""}
+    ],
 
     "lucina": [
         {

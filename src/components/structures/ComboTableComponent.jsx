@@ -3,6 +3,8 @@ import { Table, Row, Col, Image, Button, Tabs, Tab } from 'react-bootstrap'
 
 
 export default function ComboTable(props) {
+
+
     return (
         <Table responsive bordered>
             <thead>
@@ -14,29 +16,24 @@ export default function ComboTable(props) {
                     <th>Additional Info</th>
                 </tr>
             </thead>
-                {
-                    props.CharacterData[props.ComboType].map((combo, i) => (
-                        <tbody key={i}>
-                            <tr>
-                                <td rowSpan="3">{combo.name}</td>
-                                <td>Early Percents</td>
-                                <td>{combo.low_pct_true ? 'true' : 'false'}</td>
-                                <td>{combo.low_pct_damage_range.join(' - ')}%</td>
-                                <td rowSpan="3">{combo.additional_info}</td>
+
+            {
+                props.data.map(combo => (
+                    <tbody>
+                        {combo.damage_ranges.map((damage, j) => (
+                            <tr col>
+                                {j === 0 && <td rowSpan="3">{combo.name}</td> }
+                                <td> {damage.level}</td>
+                                <td>{damage.true_combo ? 'true' : 'false'}</td>
+                                <td>{damage.range.join(' - ')}%</td>
+                                {j === 0 && <td rowSpan="3">{combo.additional_info}</td> }
                             </tr>
-                            <tr>
-                                <td>Mid Percents</td>
-                                <td>{combo.med_pct_true ? 'true' : 'false'}</td>
-                                <td>{combo.med_pct_damage_range.join(' - ')}%</td>
-                            </tr>
-                            <tr>
-                                <td>High Percents</td>
-                                <td>{combo.high_pct_true ? 'true' : 'false'}</td>
-                                <td>{combo.high_pct_damage_range.join(' - ')}%</td>
-                            </tr>
-                        </tbody>
-                    ))
-                }
+                        ))
+                        }
+                        
+                    </tbody>
+                ))
+            }
         </Table>
     )
 }

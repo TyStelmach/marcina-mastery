@@ -9,6 +9,7 @@ export default function SpecSheet(props) {
       
         return (
             <Table responsive bordered striped>
+                <tbody>
                 {
             dataInfo.map((item, index) => (
                 <tr key={`${data.id}-${item[0]}`}>
@@ -18,6 +19,7 @@ export default function SpecSheet(props) {
                 
             ))
                 }
+            </tbody>
         </Table>
 
         )

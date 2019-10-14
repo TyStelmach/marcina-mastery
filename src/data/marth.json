@@ -1,372 +1,1001 @@
 {
-    "Character ID": 24,
-    "Name": "Marth",
-    "Fallspeed": 1.58,
-    "Initial Dash": 2.255,
-    "Walkspeed": 1.575,
-    "Runspeed": 1.964,
-    "Character Weight": 90,
-    "Weight Class": "Middleweight",
-    "Tipper Location": "Tip of his sword",
-    "grounded_combos": [
+    "character_id": 24,
+    "name": "marth",
+    "fallspeed": 1.58,
+    "initial_dash": 2.255,
+    "walkspeed": 1.575,
+    "runspeed": 1.964,
+    "character_weight": 90,
+    "weight_class": "Middleweight",
+    "tipper_location": "Tip of his sword",
+    "combos": [
         {
             "name": "Jab x2",
-            "low_pct_damage_range": [8.8, 13.8],
-            "low_pct_true": true,
-            "med_pct_damage_range": [8.8, 11.3],
-            "med_pct_true": true,
-            "high_pct_damage_range": [8.8, 11.3],
-            "high_pct_true": true,
+            "type": "grounded",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        8.8,
+                        13.8
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        8.8,
+                        11.3
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        8.8,
+                        11.3
+                    ],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "You will only be able to double tipper Jab Jab at low percents, once you go higher than approx 40%, you will only be able to tipper 1. The 1 that tips will depend strictly on your spacing."
         },
         {
             "name": "Up Tilt x2",
-            "low_pct_damage_range": [14.1, 16.8],
-            "low_pct_true": false,
-            "med_pct_damage_range": [13.3, 17.3],
-            "med_pct_true": false,
-            "high_pct_damage_range": [13.3, 17.3],
-            "high_pct_true": false,
+            "type": "grounded",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        14.1,
+                        16.8
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        13.3,
+                        17.3
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        13.3,
+                        17.3
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "In rare occasions, reversing your Up Tilt can make this true, but in most cases, this sting will not be true, Marth's base knockback will always knock the opponent too far away. However at mid-percents, you will be able to tipper both Up Tilts if you read the opponents air drift. You can sqeeze a little more damage out at low percents by reversing the beginning Up Tilt."
         },
         {
             "name": "Up Tilt -> Forward Air",
-            "low_pct_damage_range": [],
-            "low_pct_true": "Not Viable",
-            "med_pct_damage_range": [16.1],
-            "med_pct_true": false,
-            "high_pct_damage_range": [16.8, 17.5],
-            "high_pct_true": false,
+            "type": "grounded",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [],
+                    "true_combo": false
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        16.1
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        16.8,
+                        17.5
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Won't be true but is meant to juggle. You will need to hop backwards before swinging the forward air, in order to make contact."
         },
         {
             "name": "Up Tilt -> Back Air",
-            "low_pct_damage_range": [17.1, 20.9],
-            "low_pct_true": true,
-            "med_pct_damage_range": [17.1, 20.9],
-            "med_pct_true": false,
-            "high_pct_damage_range": [17.1, 19.9],
-            "high_pct_true": "Not Viable",
+            "type": "grounded",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        17.1,
+                        20.9
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        17.1,
+                        20.9
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        17.1,
+                        19.9
+                    ],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Reverse Up Tilts will net you the lower damage, but if you can Instant Reverse your Back Air and tipper it, you will be rewarded with higher damage and knockback."
         },
         {
             "name": "Up Tilt -> Up Air",
-            "low_pct_damage_range": [17.7, 21.5],
-            "low_pct_true": false,
-            "med_pct_damage_range": [17.5],
-            "med_pct_true": false,
-            "high_pct_damage_range": [16, 18],
-            "high_pct_true": false,
+            "type": "grounded",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        17.7,
+                        21.5
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        17.5
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        16,
+                        18
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "While it's not true, this is fairly useful for juggling and getting the opponent off the ground. Tippers will reward you with more knockback in the direction you swing."
         },
         {
             "name": "Up Tilt -> Dolphin Slash",
-            "low_pct_damage_range": [16.3, 21.4],
-            "low_pct_true": true,
-            "med_pct_damage_range": [16.3],
-            "med_pct_true": true,
-            "high_pct_damage_range": [16.3],
-            "high_pct_true": true,
+            "type": "grounded",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        16.3,
+                        21.4
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        16.3
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        16.3
+                    ],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "You will need to tipper the Up Tilt to make this true at low percents. As long as you hit your Dolphin Slash it should true at Mid percents. At High percents, you will have a small window to make this true, but it can be if you buffer correctly"
-        }
-    ],
-    "aerial_combos": [
+        },
         {
             "name": "Fast Fall Up Air -> Jab 2x",
-            "low_pct_damage_range": [8.8, 22.7],
-            "low_pct_true": true,
-            "med_pct_damage_range": [18.9, 21.2],
-            "med_pct_true": false,
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        8.8,
+                        22.7
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        18.9,
+                        21.2
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Will only be true in low-percents, there is a small window to true it if you tipper your Up Air. After about 20%, Marth's knockback makes this unreliable as a combo; their are better follow-ups off Up Air."
         },
         {
             "name": "Fast Fall Up Air -> Up Tilt",
-            "low_pct_damage_range": [16.4, 20.2],
-            "low_pct_true": true,
-            "med_pct_damage_range": [17.7, 21.3],
-            "med_pct_true": false,
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        16.4,
+                        20.2
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        17.7,
+                        21.3
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Stops comboimg aroimd 65%. You have a chance to double tipper this based on the character."
         },
         {
             "name": "Fast Fall Up Air -> Dolphin Slash",
-            "low_pct_damage_range": [18.9, 27.7],
-            "low_pct_true": true,
-            "med_pct_damage_range": [18.9, 22.7],
-            "med_pct_true": true,
-            "high_pct_damage_range": [18.9],
-            "high_pct_true": true,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        18.9,
+                        27.7
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        18.9,
+                        22.7
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        18.9
+                    ],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Tippering the Up Air in low percents will set you up to hit the strong hitbox on Dolphin Slash, you may need to read the opponents air-drift direction and reverse it. Tippering in High Percents will send the opponent straight up, and won't let you true combo this, unless you sourspot the Up Air."
         },
         {
             "name": "Fast Fall Up Air -> Neutral Air",
-            "low_pct_damage_range": [21.4, 25.1],
-            "low_pct_true": true,
-            "med_pct_damage_range": [17.2, 21.4],
-            "med_pct_true": true,
-            "high_pct_damage_range": [17],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        21.4,
+                        25.1
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        17.2,
+                        21.4
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        17
+                    ],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Tippering the Up Air, will force your Neutral Air to send behind you. At Mid percents, you will no longer be hitting but hits of your Neutral Air, and things will start becoming less true."
         },
         {
             "name": "Fast Fall Up Air -> Forward Air",
-            "low_pct_damage_range": [18.7, 22.4],
-            "low_pct_true": true,
-            "med_pct_damage_range": [18.7, 24],
-            "med_pct_true": true,
-            "high_pct_damage_range": [20, 24],
-            "high_pct_true": false,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        18.7,
+                        22.4
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        18.7,
+                        24
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        20,
+                        24
+                    ],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "This will be true no matter what in low percents, in Mid Percents you will need to tipper the Up Air."
         },
         {
             "name": "Fast Fall Up Air -> Up Air",
-            "low_pct_damage_range": [18.9, 22.7],
-            "low_pct_true": true,
-            "med_pct_damage_range": [18.9, 22.2],
-            "med_pct_true": true,
-            "high_pct_damage_range": [22.3],
-            "high_pct_true": false,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        18.9,
+                        22.7
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        18.9,
+                        22.2
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        22.3
+                    ],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "This combo will true in all cases, except when you tipper the Up Air at High percents. All other situations will combo regardless of tipper."
         },
         {
             "name": "Short Hop Neutral Air",
-            "low_pct_damage_range": [12.8],
-            "low_pct_true": true,
-            "med_pct_damage_range": [12.8],
-            "med_pct_true": true,
-            "high_pct_damage_range": [12.8],
-            "high_pct_true": true,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        12.8
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        12.8
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        12.8
+                    ],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "While Marth's standard Neutral Air is a 2 hit combo, you will gain more from fast falling it and following up with different options."
         },
         {
             "name": "Short Hop Neutral Air -> Down Tilt",
-            "low_pct_damage_range": [26.3, 27.9],
-            "low_pct_true": true,
-            "med_pct_damage_range": [],
-            "med_pct_true": "Not Viable",
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        26.3,
+                        27.9
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "During Low Percents, a well spaced Short Hop Neutral Air, will pop the opponent up perfectly to be hit by a tippered Forward Tilt."
         },
         {
             "name": "Short Hop Neutral Air -> Forward Air",
-            "low_pct_damage_range": [21.4],
-            "low_pct_true": false,
-            "med_pct_damage_range": [],
-            "med_pct_true": "Not Viable",
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        21.4
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "medium",
+                    "range": [],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Marth's knockback will push the opponent too far away after the second hit, the Forward Air becomes unattainable at later Low percents."
         },
         {
             "name": "Short Hop Neutral Air -> Forward Smash",
-            "low_pct_damage_range": [35.3],
-            "low_pct_true": true,
-            "med_pct_damage_range": [28],
-            "med_pct_true": false,
-            "high_pct_damage_range": [28],
-            "high_pct_true": false,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        35.3
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        28
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        28
+                    ],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "This will only true in low percents, otherwise it puts the opponent in a tech situation and you can run up and jab lock, or try to hard read their option.."
         },
         {
             "name": "Fast Fall Neutral Air -> Down Tilt",
-            "low_pct_damage_range": [12.8],
-            "low_pct_true": true,
-            "med_pct_damage_range": [12.8],
-            "med_pct_true": false,
-            "high_pct_damage_range": [12.8],
-            "high_pct_true": false,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        12.8
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        12.8
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        12.8
+                    ],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Marth's Neutral Air hit will pop your opponent up, so after late Low Percents, you will have to wait a second before following up with Down Tile (which ruins the truality of this string)."
         },
         {
             "name": "Fast Fall Neutral Air -> Forward Tilt",
-            "low_pct_damage_range": [15, 16.6],
-            "low_pct_true": false,
-            "med_pct_damage_range": [15],
-            "med_pct_true": true,
-            "high_pct_damage_range": [15, 16.6],
-            "high_pct_true": true,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        15,
+                        16.6
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        15
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        15,
+                        16.6
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "During Low Percents, your opponent won't generate enough hitstun for this to be true. Once they hit Late Low / Early Mid Percents this will begin to combo and have a chance to Tipper on your Forward Tilt."
         },
         {
             "name": "Fast Fall Neutral Air -> Up Tilt",
-            "low_pct_damage_range": [12.9, 13.2],
-            "low_pct_true": true,
-            "med_pct_damage_range": [12.9, 13.2],
-            "med_pct_true": true,
-            "high_pct_damage_range": [15, 16.6],
-            "high_pct_true": true,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        12.9,
+                        13.2
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        12.9,
+                        13.2
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        15,
+                        16.6
+                    ],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "This will be hard to true during Low Percents, because your opponent won't generate enough hitstun, but it is possible. Once they hit Late Low / Early Mid Percents this will begin to combo and have a chance to Tipper on your Forward Tilt."
         },
         {
             "name": "Fast Fall Neutral Air -> Dancing Blade (Any Direction)",
-            "low_pct_damage_range": [17, 21.3],
-            "low_pct_true": false,
-            "med_pct_damage_range": [13.2, 19.5],
-            "med_pct_true": true,
-            "high_pct_damage_range": [15, 17],
-            "high_pct_true": true,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        17,
+                        21.3
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        13.2,
+                        19.5
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        15,
+                        17
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Truality will depend on the directions you, this was tested with basic directions. See Dancing Blade table for more informaiton."
         },
         {
             "name": "Fast Fall Down Air (Sourspot) -> Jab 2x",
-            "low_pct_damage_range": [24.1],
-            "low_pct_true": true,
-            "med_pct_damage_range": [],
-            "med_pct_true": false,
-            "high_pct_damage_range": [],
-            "high_pct_true": false,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        24.1
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Mainly useful in low percents, sourspotted Down Air will push the opponent too far away, starting at late Low Percents."
         },
         {
             "name": "Fast Fall Forward Air -> Jab 2x",
-            "low_pct_damage_range": [17, 22.4],
-            "low_pct_true": true,
-            "med_pct_damage_range": [],
-            "med_pct_true": "Not Viable",
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        17,
+                        22.4
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Forward Tilt has a chance to trip at low percents, but damage will fluctuate based on what tippers you can hit. Sometimes hitting the Forward Air tipper will knock the opponent too far away to be hit by a follow up. After Low Percents, your Forward Air will have too much knockback to be comboed on. This move will however lead into Jab Locks."
         },
         {
             "name": "Fast Fall Forward Air -> Down Tilt",
-            "low_pct_damage_range": [17.3],
-            "low_pct_true": true,
-            "med_pct_damage_range": [],
-            "med_pct_true": "Not Viable",
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        17.3
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Forward Tilt has a chance to trip at low percents, but damage will fluctuate based on what tippers you can hit. It will only true combo if you sourspot the Forward Air. After Low Percents, your Forward Air will have too much knockback to be comboed on. This move will however lead into Jab Locks."
         },
         {
             "name": "Fast Fall Forward Air -> Up Tilt",
-            "low_pct_damage_range": [16.1, 19.9],
-            "low_pct_true": true,
-            "med_pct_damage_range": [],
-            "med_pct_true": "Not Viable",
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        16.1,
+                        19.9
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "This won't be true in Low Percents unless you sourspot the Forward Air; Sourspotting the Forward Air, will in most cases tipper your Up Tilt."
         },
         {
             "name": "Fast Fall Forward Air -> Forward Tilt",
-            "low_pct_damage_range": [19.9, 27.4],
-            "low_pct_true": true,
-            "med_pct_damage_range": [],
-            "med_pct_true": "Not Viable",
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        19.9,
+                        27.4
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "This will mostly true in low percents, spacing a good Forward Air tipper will set you up for a reward of a free Forward Tilt tipper (or 27% damage)..."
         },
         {
             "name": "Fast Fall Forward Air -> Neutral Air",
-            "low_pct_damage_range": [21.2, 24],
-            "low_pct_true": true,
-            "med_pct_damage_range": [19],
-            "med_pct_true": false,
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        21.2,
+                        24
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        19
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Will only true in low percents, however, if you're fast, you can grab hit a rising Neutral Air off a missed tech, however this isn't very reliable."
         },
         {
             "name": "Fast Fall Forward Air -> Forward Air",
-            "low_pct_damage_range": [15.9],
-            "low_pct_true": true,
-            "med_pct_damage_range": [19],
-            "med_pct_true": false,
-            "high_pct_damage_range": [15],
-            "high_pct_true": false,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        15.9
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        19
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        15
+                    ],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Will only true in low percents. If you are fast enough, you can carry people across the stage by catching a missed tech."
         },
         {
             "name": "Fast Fall Down Air (Sweetspot) -> Up Tilt",
-            "low_pct_damage_range": [22.5],
-            "low_pct_true": false,
-            "med_pct_damage_range": [22.3, 27.4],
-            "med_pct_true": true,
-            "high_pct_damage_range": [27],
-            "high_pct_true": false,
-            "additional_info": "Will stop being true once  Down Air has too much knockback"
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        22.5
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        22.3,
+                        27.4
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        27
+                    ],
+                    "true_combo": false
+                }
+            ],
+            "additional_info": "Will stop being true once Down Air has too much knockback"
         },
         {
             "name": "Fast Fall Down Air (Sweetspot) -> Forward Tilt",
-            "low_pct_damage_range": [26.2],
-            "low_pct_true": false,
-            "med_pct_damage_range": [27.4],
-            "med_pct_true": true,
-            "high_pct_damage_range": [27.9],
-            "high_pct_true": false,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        26.2
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        27.4
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        27.9
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Will stop being true once Down Air has too much knockback."
         },
         {
             "name": "Fast Fall Down Air (Sweetspot) -> Down Tilt",
-            "low_pct_damage_range": [24.8],
-            "low_pct_true": false,
-            "med_pct_damage_range": [18],
-            "med_pct_true": false,
-            "high_pct_damage_range": [22],
-            "high_pct_true": false,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        24.8
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        18
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        22
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Marth has too much base knockback for this to be true in most use cases."
         },
         {
             "name": "Fast Fall Down Air (Sweetspot) -> Up Air",
-            "low_pct_damage_range": [],
-            "low_pct_true": "Not Viable",
-            "med_pct_damage_range": [26.7],
-            "med_pct_true": true,
-            "high_pct_damage_range": [29.9],
-            "high_pct_true": true,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [],
+                    "true_combo": false
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        26.7
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        29.9
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "For this to net out as a true combo, you will need to buffer the Up Air as soon as you hear the spiking sound."
-        }
-    ],
-    "throw_combos": [
+        },
         {
             "name": "Down Throw -> Up Air",
-            "low_pct_damage_range": [13.8, 18.9],
-            "low_pct_true": false,
-            "med_pct_damage_range": [13.8, 18.9],
-            "med_pct_true": false,
-            "high_pct_damage_range": [13.8, 18.9],
-            "high_pct_true": false,
+            "type": "throw",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        13.8,
+                        18.9
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        13.8,
+                        18.9
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        13.8,
+                        18.9
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Mostly untrue, but the percentages are based on whether you hit a tipper on the Up Air. You can always gain extra damage by Pummeling.."
-            
         },
         {
             "name": "Down Throw -> Forward Air",
-            "low_pct_damage_range": [13.6],
-            "low_pct_true": false,
-            "med_pct_damage_range": [13.6],
-            "med_pct_true": false,
-            "high_pct_damage_range": [13.6],
-            "high_pct_true": false,
+            "type": "throw",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        13.6
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        13.6
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        13.6
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Mostly untrue, but the percentages are based on whether you hit a tipper on the Forward Air. You can always gain extra damage by Pummeling.."
-            
         },
         {
             "name": "Down Throw -> Back Air",
-            "low_pct_damage_range": [14.6, 16.3],
-            "low_pct_true": false,
-            "med_pct_damage_range": [14.6, 16.3],
-            "med_pct_true": false,
-            "high_pct_damage_range": [14.6, 16.3],
-            "high_pct_true": false,
+            "type": "throw",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        14.6,
+                        16.3
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        14.6,
+                        16.3
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        14.6,
+                        16.3
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Mostly untrue, but the percentages are based on whether you hit a tipper on the Back Air. You can always gain extra damage by Pummeling.."
-            
         },
         {
             "name": "Down Throw -> Dolphin Slash",
-            "low_pct_damage_range": [13.8],
-            "low_pct_true": true,
-            "med_pct_damage_range": [13.8],
-            "med_pct_true": true,
-            "high_pct_damage_range": [13.8],
-            "high_pct_true": true,
+            "type": "throw",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        13.8
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "medium",
+                    "range": [
+                        13.8
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        13.8
+                    ],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "One of the only true combos out of Down Throw, you will have to reverse your Dolphin Slash for it to hit."
-            
         }
-    ],
-    "dancingblade_combos": []
+    ]
 }

@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 import ContentTable from '../../data/sitecontent';
 import { Container, Row, Col, Image, Alert, Button, Tabs, Tab } from 'react-bootstrap'
 
-
 import ComboTable from '../structures/ComboTableComponent';
 import SpecSheet from '../structures/InformationTableComponent';
 import data from '../../data/marth.json';
 
 class Marth extends Component {
+  
   render() {
+    const comboTypes = [...new Set(data.combos.map(comboType => comboType.type))]
+    console.log(comboTypes)
     return (
       <div>
          {ContentTable["marth"].map((content, i) => {
@@ -40,15 +42,36 @@ class Marth extends Component {
                 </Row>
 
                 <Row>
-                  <Tabs defaultActiveKey="grounded_combos">
-                    <Tab eventKey="grounded_combos" title="Grounded Combos">
-                      <div>
-                        <h2>{content.marth_tabber_grounded_combo_header}</h2>
-                        <p>{content.marth_tabber_grounded_combo_description}</p>
-                      </div>
-                      <ComboTable CharacterData={data} ComboType={"grounded_combos"} />
-                    </Tab>
-                    <Tab eventKey="aerial_combos" title="Aerial Combos">
+                  <Tabs defaultActiveKey="grounded">
+                    {
+                      comboTypes.map(type => {
+                        const comboArr = [...data.combos.filter(combo => combo.type === type)];
+
+                        return (
+                          <Tab eventKey={type} title={type} >
+                            <h2>{content[`marth_tabber_${type}_combo_header`]}</h2>
+                            <p>{content[`marth_tabber_${type}_combo_description`]}</p>
+                            <ComboTable data={comboArr} />
+                          </Tab >
+                        )
+                      })
+                    }
+                   </Tabs>
+                 </Row>
+               </Container>
+             </div>
+           )
+         })
+        }
+      </div>
+    )
+  }
+}
+
+export default Marth;
+
+
+                    {/* <Tab eventKey="aerial_combos" title="Aerial Combos">
                       <div>
                         <h2>{content.marth_tabber_aerial_combo_header}</h2>
                         <p>{content.marth_tabber_aerial_combo_description}</p>
@@ -68,16 +91,4 @@ class Marth extends Component {
                         <p>{content.marth_tabber_dancingblade_combo_description}</p>
                       </div>
                       <ComboTable CharacterData={data} ComboType={"dancingblade_combos"} />
-                    </Tab>
-                  </Tabs>
-              </Row>
-              </Container>
-            </div>
-          )})
-        } 
-      </div>
-    )
-  }
-}
-
-export default Marth;
+                    </Tab> */}

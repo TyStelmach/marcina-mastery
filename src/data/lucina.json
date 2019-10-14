@@ -1,416 +1,1039 @@
 {
-    "Character ID": 25,
-    "Name": "Lucina",
-    "Fallspeed": 1.58,
-    "Initial Dash": 2.255,
-    "Walkspeed": 1.575,
-    "Runspeed": 1.964,
-    "Character Weight": 90,
-    "Weight Class": "Middleweight",
-    "Tipper Location": "None",
-    "grounded_combos": [
+    "character_id": 25,
+    "name": "lucina",
+    "fallspeed": 1.58,
+    "initial_dash": 2.255,
+    "walkspeed": 1.575,
+    "runspeed": 1.964,
+    "character_weight": 90,
+    "weight_class": "Middleweight",
+    "tipper_location": "None",
+    "combos": [
         {
             "name": "Jab x2",
-            "low_pct_damage_range": [9.6],
-            "low_pct_true": true,
-            "med_pct_damage_range": [9.6],
-            "med_pct_true": true,
-            "high_pct_damage_range": [9.6],
-            "high_pct_true": true,
+            "type": "grounded",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        9.6
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        9.6
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        9.6
+                    ],
+                    "true_combo": true
+                }
+            ],
             "additional_info": ""
         },
         {
             "name": "Up Tilt x2",
-            "low_pct_damage_range": [18.2],
-            "low_pct_true": false,
-            "med_pct_damage_range": [18.2],
-            "med_pct_true": false,
-            "high_pct_damage_range": [18.2],
-            "high_pct_true": false,
+            "type": "grounded",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        18.2
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        18.2
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        18.2
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "This won't be true, but it can start juggling at early percents."
         },
         {
             "name": "Up Tilt -> Forward Air",
-            "low_pct_damage_range": [19.8],
-            "low_pct_true": false,
-            "med_pct_damage_range": [21.6],
-            "med_pct_true": false,
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "grounded",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        19.8
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        21.6
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": false
+                }
+            ],
             "additional_info": ""
         },
         {
             "name": "Up Tilt -> Back Air",
-            "low_pct_damage_range": [],
-            "low_pct_true": "Not Viable",
-            "med_pct_damage_range": [21.8],
-            "med_pct_true": true,
-            "high_pct_damage_range": [23],
-            "high_pct_true": false,
+            "type": "grounded",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [],
+                    "true_combo": false
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        21.8
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        23
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Will only be true around Mid Percents, but you either have to reverse the Up Tilt, or Instant Reverse your Back Air."
         },
         {
             "name": "Up Tilt -> Up Air",
-            "low_pct_damage_range": [20.7],
-            "low_pct_true": false,
-            "med_pct_damage_range": [20.7],
-            "med_pct_true": false,
-            "high_pct_damage_range": [20.7],
-            "high_pct_true": false,
+            "type": "grounded",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        20.7
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        20.7
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        20.7
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Does not true, but is a good way to keep your opponent juggled."
         },
         {
             "name": "Up Tilt -> Dolphin Slash",
-            "low_pct_damage_range": [22.7],
-            "low_pct_true": true,
-            "med_pct_damage_range": [17.5],
-            "med_pct_true": true,
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "grounded",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        22.7
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        17.5
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Trues at Low to Mid Percents, may have to reverse your Dolphin Slash."
-        }
-    
-    ],
-    "aerial_combos": [
+        },
         {
             "name": "Fast Fall Up Air -> Jab 2x",
-            "low_pct_damage_range": [21.3],
-            "low_pct_true": true,
-            "med_pct_damage_range": [15],
-            "med_pct_true": false,
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        21.3
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        15
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Lucina will have too much base knockback and you won't be able to combo the Jabs past Mid Percents."
         },
         {
             "name": "Fast Fall Up Air -> Up Tilt",
-            "low_pct_damage_range": [20.7],
-            "low_pct_true": true,
-            "med_pct_damage_range": [20.7],
-            "med_pct_true": true,
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        20.7
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        20.7
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Lucina will have too much base knockback and you won't be able to combo with the Up Tilt past Mid Percents."
         },
         {
             "name": "Fast Fall Up Air -> Dolphin Slash",
-            "low_pct_damage_range": [20],
-            "low_pct_true": true,
-            "med_pct_damage_range": [20],
-            "med_pct_true": true,
-            "high_pct_damage_range": [20],
-            "high_pct_true": true,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        20
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        20
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        20
+                    ],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "This combo will true up into High Percents, but you will need to reverse your Dolphin Slash accrodingly."
         },
         {
             "name": "Fast Fall Up Air -> Neutral Air",
-            "low_pct_damage_range": [24.7],
-            "low_pct_true": true,
-            "med_pct_damage_range": [20.3],
-            "med_pct_true": true,
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        24.7
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        20.3
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Will true all 2 hits of Neutral Air in Low Percents, but will only hit 1 Hit when in Mid Percents. Opponent is knocked too high for this to be viable in High Percents."
         },
         {
             "name": "Fast Fall Up Air -> Forward Air",
-            "low_pct_damage_range": [24.2],
-            "low_pct_true": true,
-            "med_pct_damage_range": [24.2],
-            "med_pct_true": true,
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        24.2
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        24.2
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Will true in Low to Mid Percents. Opponent is knocked too high for this to be viable in High Percents."
         },
         {
             "name": "Fast Fall Up Air -> Back Air",
-            "low_pct_damage_range": [23.7],
-            "low_pct_true": true,
-            "med_pct_damage_range": [23.7],
-            "med_pct_true": true,
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        23.7
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        23.7
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Can hit Back Air with either a cross up Up Air, or Instantly Reversing it out of a regular Up Air. Will true in Low to Mid Percents. Opponent is knocked too high for this to be viable in High Percents."
         },
         {
             "name": "Fast Fall Up Air -> Up Air",
-            "low_pct_damage_range": [23.2],
-            "low_pct_true": true,
-            "med_pct_damage_range": [23.2],
-            "med_pct_true": true,
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        23.2
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        23.2
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Will true in Low to Mid Percents. Opponent is knocked too high for this to be viable in High Percents."
         },
         {
             "name": "Short Hop Neutral Air",
-            "low_pct_damage_range": [13],
-            "low_pct_true": true,
-            "med_pct_damage_range": [13],
-            "med_pct_true": true,
-            "high_pct_damage_range": [13],
-            "high_pct_true": true,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        13
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        13
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        13
+                    ],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "While Lucina's standard Neutral Air is a 2 hit combo, you will gain more from fast falling it and following up with different options."
         },
         {
             "name": "Short Hop Neutral Air -> Forward Air",
-            "low_pct_damage_range": [23.7],
-            "low_pct_true": true,
-            "med_pct_damage_range": [],
-            "med_pct_true": "Not Viable",
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        23.7
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Lucina's Short Hop Neutral Air has too much knockback to combo out of after Low Percents."
         },
         {
             "name": "Short Hop Neutral Air -> Neutral Air",
-            "low_pct_damage_range": [26],
-            "low_pct_true": false,
-            "med_pct_damage_range": [26],
-            "med_pct_true": false,
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        26
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        26
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "To chase a Neutral Air out of Neutral Air, you will need to be quick, it won't technically be true, but you can catch the oppoent right before their tech situation occurs."
         },
         {
             "name": "Fast Fall Neutral Air -> Down Tilt",
-            "low_pct_damage_range": [14.5],
-            "low_pct_true": false,
-            "med_pct_damage_range": [14.5],
-            "med_pct_true": false,
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        14.5
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        14.5
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "This shouldn't be true, and after Mid Percents, your Fast Falling Neutral Air will pop the opponent up too high to be hit by Down Tilt."
         },
         {
             "name": "Fast Fall Neutral Air -> Forward Tilt",
-            "low_pct_damage_range": [17.5],
-            "low_pct_true": true,
-            "med_pct_damage_range": [17.5],
-            "med_pct_true": true,
-            "high_pct_damage_range": [17.5],
-            "high_pct_true": true,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        17.5
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        17.5
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        17.5
+                    ],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "This will only true if you hit the first hit of Neutral Air, it's final hit has too much knockback."
         },
         {
             "name": "Fast Fall Neutral Air -> Up Tilt",
-            "low_pct_damage_range": [13.4],
-            "low_pct_true": true,
-            "med_pct_damage_range": [13.4],
-            "med_pct_true": true,
-            "high_pct_damage_range": [13.4],
-            "high_pct_true": true,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        13.4
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        13.4
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        13.4
+                    ],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "This will only true if you hit the first hit of Neutral Air, it's final hit has too much knockback."
         },
         {
             "name": "Fast Fall Neutral Air -> Dancing Blade (Any Direction)",
-            "low_pct_damage_range": [20.8, 22],
-            "low_pct_true": false,
-            "med_pct_damage_range": [20.8, 22],
-            "med_pct_true": false,
-            "high_pct_damage_range": [20.8, 22],
-            "high_pct_true": false,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        20.8,
+                        22
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        20.8,
+                        22
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        20.8,
+                        22
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Truality will depend on the directions you, this was tested with basic directions. See Dancing Blade table for more informaiton."
         },
         {
             "name": "Fast Fall Down Air (Sourspot) -> Jab 2x",
-            "low_pct_damage_range": [26.8],
-            "low_pct_true": true,
-            "med_pct_damage_range": [],
-            "med_pct_true": "Not Viable",
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        26.8
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Hard to true in Low Percents, Lucina's knockback is too high for this to work in Mid - High Percents."
         },
         {
             "name": "Fast Fall Down Air (Sourspot) -> Down Tilt",
-            "low_pct_damage_range": [25],
-            "low_pct_true": false,
-            "med_pct_damage_range": [],
-            "med_pct_true": "Not Viable",
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        25
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "mid percents",
+                    "range": [],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Lucina's knockback is too high for this to work in Mid - High Percents."
         },
         {
             "name": "Fast Fall Down Air (Sourspot) -> Forward Tilt",
-            "low_pct_damage_range": [25.7],
-            "low_pct_true": false,
-            "med_pct_damage_range": [],
-            "med_pct_true": "Not Viable",
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        25.7
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "mid percents",
+                    "range": [],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Lucina's knockback is too high for this to work in Mid - High Percents."
         },
         {
             "name": "Fast Fall Down Air (Sourspot) -> Up Tilt",
-            "low_pct_damage_range": [21.7],
-            "low_pct_true": false,
-            "med_pct_damage_range": [],
-            "med_pct_true": "Not Viable",
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        21.7
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "mid percents",
+                    "range": [],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Lucina's knockback is too high for this to work in Mid - High Percents."
         },
         {
             "name": "Fast Fall Down Air (Sourspot) -> Dolphin Slash",
-            "low_pct_damage_range": [25.7],
-            "low_pct_true": false,
-            "med_pct_damage_range": [],
-            "med_pct_true": "Not Viable",
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        25.7
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "mid percents",
+                    "range": [],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Lucina's knockback is too high for this to work in Mid - High Percents."
         },
         {
             "name": "Fast Fall Forward Air -> Jab x2",
-            "low_pct_damage_range": [20.4],
-            "low_pct_true": true,
-            "med_pct_damage_range": [],
-            "med_pct_true": "Not Viable",
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        20.4
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "After Low Percents, this is no longer true, it will however, setup a tech chase and Jab Lock opportunity."
         },
         {
             "name": "Fast Fall Forward Air -> Down Tilt",
-            "low_pct_damage_range": [20.9],
-            "low_pct_true": true,
-            "med_pct_damage_range": [],
-            "med_pct_true": "Not Viable",
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        20.9
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "After Low Percents, this is no longer true, it will however, setup a tech chase and Jab Lock opportunity."
         },
         {
             "name": "Fast Fall Forward Air -> Up Tilt",
-            "low_pct_damage_range": [19.8],
-            "low_pct_true": true,
-            "med_pct_damage_range": [],
-            "med_pct_true": "Not Viable",
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        19.8
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "After Low Percents, this is no longer true, it will however, setup a tech chase and Jab Lock opportunity."
         },
         {
             "name": "Fast Fall Forward Air -> Forward Tilt",
-            "low_pct_damage_range": [23.9],
-            "low_pct_true": true,
-            "med_pct_damage_range": [],
-            "med_pct_true": "Not Viable",
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        23.9
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "After Low Percents, this is no longer true, it will however, setup a tech chase and Jab Lock opportunity."
         },
         {
             "name": "Fast Fall Forward Air -> Neutral Air",
-            "low_pct_damage_range": [23.9],
-            "low_pct_true": true,
-            "med_pct_damage_range": [],
-            "med_pct_true": "Not Viable",
-            "high_pct_damage_range": [],
-            "high_pct_true": "Not Viable",
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        23.9
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Will only true in low percents, however, if you're fast, you can grab hit a rising Neutral Air off a missed tech, however this isn't very reliable."
         },
         {
             "name": "Fast Fall Forward Air -> Forward Air",
-            "low_pct_damage_range": [21.4],
-            "low_pct_true": true,
-            "med_pct_damage_range": [21.3],
-            "med_pct_true": false,
-            "high_pct_damage_range": [21.3],
-            "high_pct_true": false,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        21.4
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        21.3
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        21.3
+                    ],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "Will only true in low percents. If you are fast enough, you can carry people across the stage by catching a missed tech"
         },
         {
             "name": "Fast Fall Down Air (Sweetspot) -> Up Tilt",
-            "low_pct_damage_range": [21.7],
-            "low_pct_true": false,
-            "med_pct_damage_range": [21.7],
-            "med_pct_true": true,
-            "high_pct_damage_range": [21.7],
-            "high_pct_true": false,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        21.7
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        21.7
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        21.7
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Will stop being true once Down Air has too much knockback."
         },
         {
             "name": "Fast Fall Down Air (Sweetspot) -> Forward Tilt",
-            "low_pct_damage_range": [27.8],
-            "low_pct_true": false,
-            "med_pct_damage_range": [27.8],
-            "med_pct_true": true,
-            "high_pct_damage_range": [27.8],
-            "high_pct_true": false,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        27.8
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        27.8
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        27.8
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Will stop being true once Down Air has too much knockback."
         },
         {
             "name": "Fast Fall Down Air (Sweetspot) -> Up Air",
-            "low_pct_damage_range": [],
-            "low_pct_true": "Not Viable",
-            "med_pct_damage_range": [],
-            "med_pct_true": "Not Viable",
-            "high_pct_damage_range": [26.1],
-            "high_pct_true": true,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [],
+                    "true_combo": false
+                },
+                {
+                    "level": "mid percents",
+                    "range": [],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        26.1
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Does not become viable untile the Late Mid and High percents, due to the spike lacking knockback."
         },
         {
             "name": "Fast Fall Down Air (Sweetspot) -> Dolphin Slash",
-            "low_pct_damage_range": [27.7],
-            "low_pct_true": false,
-            "med_pct_damage_range": [27.7],
-            "med_pct_true": true,
-            "high_pct_damage_range": [22.9],
-            "high_pct_true": true,
+            "type": "aerial",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        27.7
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        27.7
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        22.9
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Won't be true until Mid Percents, but if you're fast, you can squeeze it out in Low Percents. Make sure to reverse your Dolphin Slash when needed."
-        }
-    ],
-    "throw_combos": [
+        },
         {
             "name": "Down Throw -> Up Air",
-            "low_pct_damage_range": [16.4],
-            "low_pct_true": false,
-            "med_pct_damage_range": [16.4],
-            "med_pct_true": false,
-            "high_pct_damage_range": [16.4],
-            "high_pct_true": false,
+            "type": "throw",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        16.4
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        16.4
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        16.4
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Mostly untrue, and static damage due to Lucina's lack of a tipper. You can always gain extra damage by Pummeling.."
-            
         },
         {
             "name": "Down Throw -> Forward Air",
-            "low_pct_damage_range": [15.5],
-            "low_pct_true": false,
-            "med_pct_damage_range": [15.5],
-            "med_pct_true": false,
-            "high_pct_damage_range": [15.5],
-            "high_pct_true": false,
+            "type": "throw",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        15.5
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        15.5
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        15.5
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Mostly untrue, and static damage due to Lucina's lack of a tipper. You can always gain extra damage by Pummeling.."
-            
         },
         {
             "name": "Down Throw -> Back Air",
-            "low_pct_damage_range": [16.9],
-            "low_pct_true": false,
-            "med_pct_damage_range": [16.9],
-            "med_pct_true": false,
-            "high_pct_damage_range": [16.9],
-            "high_pct_true": false,
+            "type": "throw",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        16.9
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        16.9
+                    ],
+                    "true_combo": false
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        16.9
+                    ],
+                    "true_combo": false
+                }
+            ],
             "additional_info": "Mostly untrue, and static damage due to Lucina's lack of a tipper. You can always gain extra damage by Pummeling.."
-            
         },
         {
             "name": "Down Throw -> Dolphin Slash",
-            "low_pct_damage_range": [13.2],
-            "low_pct_true": true,
-            "med_pct_damage_range": [13.2],
-            "med_pct_true": true,
-            "high_pct_damage_range": [13.2],
-            "high_pct_true": true,
+            "type": "throw",
+            "damage_ranges": [
+                {
+                    "level": "early percents",
+                    "range": [
+                        13.2
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "mid percents",
+                    "range": [
+                        13.2
+                    ],
+                    "true_combo": true
+                },
+                {
+                    "level": "high percents",
+                    "range": [
+                        13.2
+                    ],
+                    "true_combo": true
+                }
+            ],
             "additional_info": "One of the only true combos out of Down Throw, you will have to reverse your Dolphin Slash for it to hit."
-            
         }
-    ], 
-    "dancingblade_combos": [
-
     ]
 }
 

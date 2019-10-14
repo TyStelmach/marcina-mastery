@@ -1,796 +1,416 @@
 {
-    "id": 24,
-    "name": "Lucina",
-    "icon": "",
-    "fallspeed": 1.58,
-    "weightclass": "Middleweight",
-    "tipper": false,
+    "Character ID": 25,
+    "Name": "Lucina",
+    "Fallspeed": 1.58,
+    "Initial Dash": 2.255,
+    "Walkspeed": 1.575,
+    "Runspeed": 1.964,
+    "Character Weight": 90,
+    "Weight Class": "Middleweight",
+    "Tipper Location": "None",
     "grounded_combos": [
         {
-            "name": "Jab Jab",
-            "inputs": "Jab + Jab",
-            "approx_dmg": 10.1,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": ""
+            "name": "Jab x2",
+            "low_pct_damage_range": [9.6],
+            "low_pct_true": true,
+            "med_pct_damage_range": [9.6],
+            "med_pct_true": true,
+            "high_pct_damage_range": [9.6],
+            "high_pct_true": true,
+            "additional_info": ""
         },
         {
             "name": "Up Tilt x2",
-            "inputs": "Up Tilt + Up Tilt",
-            "approx_dmg": 17.8,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "The second uptilt's truality will depend on opponent's reaction."
+            "low_pct_damage_range": [18.2],
+            "low_pct_true": false,
+            "med_pct_damage_range": [18.2],
+            "med_pct_true": false,
+            "high_pct_damage_range": [18.2],
+            "high_pct_true": false,
+            "additional_info": "This won't be true, but it can start juggling at early percents."
         },
         {
-            "name": "Up Tilt x2 -> Foward Air/Back Air",
-            "inputs": "Up Tilt + Up Tilt + Jump + Fair/Bair",
-            "approx_dmg": 32,
-            "truality": true,
-            "hitcount": 3,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "The fair/bair follow-up's truality will depend on opponent's reaction."
-        },
-        {
-            "name": "Up Tilt x2 -> Up Air",
-            "inputs": "Up Tilt + Up Tilt + Jump + Up Air",
-            "approx_dmg": 32,
-            "truality": true,
-            "hitcount": 3,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "The fair/bair follow-up's truality will depend on opponent's reaction."
+            "name": "Up Tilt -> Forward Air",
+            "low_pct_damage_range": [19.8],
+            "low_pct_true": false,
+            "med_pct_damage_range": [21.6],
+            "med_pct_true": false,
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": ""
         },
         {
             "name": "Up Tilt -> Back Air",
-            "inputs": "Up Tilt + Jump + Back Air",
-            "approx_dmg": 24,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Mid percents"
-            ],
-            "true_on": [
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Aerials will struggle to connect at higher percents"
+            "low_pct_damage_range": [],
+            "low_pct_true": "Not Viable",
+            "med_pct_damage_range": [21.8],
+            "med_pct_true": true,
+            "high_pct_damage_range": [23],
+            "high_pct_true": false,
+            "additional_info": "Will only be true around Mid Percents, but you either have to reverse the Up Tilt, or Instant Reverse your Back Air."
         },
         {
             "name": "Up Tilt -> Up Air",
-            "inputs": "Up Tilt + Jump + Up Air",
-            "approx_dmg": 23,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Mid percents"
-            ],
-            "true_on": [
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Aerials will struggle to connect at higher percents"
+            "low_pct_damage_range": [20.7],
+            "low_pct_true": false,
+            "med_pct_damage_range": [20.7],
+            "med_pct_true": false,
+            "high_pct_damage_range": [20.7],
+            "high_pct_true": false,
+            "additional_info": "Does not true, but is a good way to keep your opponent juggled."
         },
         {
             "name": "Up Tilt -> Dolphin Slash",
-            "inputs": "Up Tilt + Up B",
-            "approx_dmg": 18.5,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Mid percents"
-            ],
-            "true_on": [
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "You may have to reverse the Dolphin Slash based on direction the oppoent is sent."
+            "low_pct_damage_range": [22.7],
+            "low_pct_true": true,
+            "med_pct_damage_range": [17.5],
+            "med_pct_true": true,
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": "Trues at Low to Mid Percents, may have to reverse your Dolphin Slash."
         }
+    
     ],
     "aerial_combos": [
         {
-            "name": "Fast Fall Up Air -> Jab Jab",
-            "inputs": "Fast Fall Up Air + Jab + Jab",
-            "approx_dmg": 22,
-            "truality": true,
-            "hitcount": 3,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Truality is depenedent on your fast fall, if crossed up you can follow up with Up Tilt instead."
+            "name": "Fast Fall Up Air -> Jab 2x",
+            "low_pct_damage_range": [21.3],
+            "low_pct_true": true,
+            "med_pct_damage_range": [15],
+            "med_pct_true": false,
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": "Lucina will have too much base knockback and you won't be able to combo the Jabs past Mid Percents."
         },
         {
             "name": "Fast Fall Up Air -> Up Tilt",
-            "inputs": "Fast Fall Up Air + Up Tilt",
-            "approx_dmg": 22,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Truality is depenedent on your fast fall"
-        },
-        {
-            "name": "Fast Fall Up Air -> Up Tilt x2",
-            "inputs": "Fast Fall Up Air + Up Tilt + Up Tilt",
-            "approx_dmg": 30,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "This will only work at 0%. Will open up for Forward/Back Air strings, loses truality after 2nd Up Tilt."
+            "low_pct_damage_range": [20.7],
+            "low_pct_true": true,
+            "med_pct_damage_range": [20.7],
+            "med_pct_true": true,
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": "Lucina will have too much base knockback and you won't be able to combo with the Up Tilt past Mid Percents."
         },
         {
             "name": "Fast Fall Up Air -> Dolphin Slash",
-            "inputs": "Fast Fall Up Air + Up B",
-            "approx_dmg": 21,
-            "truality": true,
-            "hitcount": 3,
-            "term": [
-                "Low percents",
-                "Mid percents",
-                "High percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Fast Falling your Up Air, will pop the opponent up and you can hit them with the late hit of your Dolphin Slash."
+            "low_pct_damage_range": [20],
+            "low_pct_true": true,
+            "med_pct_damage_range": [20],
+            "med_pct_true": true,
+            "high_pct_damage_range": [20],
+            "high_pct_true": true,
+            "additional_info": "This combo will true up into High Percents, but you will need to reverse your Dolphin Slash accrodingly."
         },
         {
             "name": "Fast Fall Up Air -> Neutral Air",
-            "inputs": "Fast Fall Up Air + Jump + Neutral Air",
-            "approx_dmg": 25,
-            "truality": true,
-            "hitcount": 3,
-            "term": [
-                "Low percents",
-                "Mid percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "You will need to buffer your Neutral Air, by inputting your Jump + Neutral Air as soon as you land the Up Air."
+            "low_pct_damage_range": [24.7],
+            "low_pct_true": true,
+            "med_pct_damage_range": [20.3],
+            "med_pct_true": true,
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": "Will true all 2 hits of Neutral Air in Low Percents, but will only hit 1 Hit when in Mid Percents. Opponent is knocked too high for this to be viable in High Percents."
         },
         {
-            "name": "Fast Fall Up Air -> Forward/Back Air",
-            "inputs": "Fast Fall Up Air + Forward/Back Air",
-            "approx_dmg": 25,
-            "truality": true,
-            "hitcount": 3,
-            "term": [
-                "Low percents",
-                "Mid percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "You will need to buffer your Forward/Back Air, by inputting your Jump + Forward/Back Air as soon as you land the Up Air."
+            "name": "Fast Fall Up Air -> Forward Air",
+            "low_pct_damage_range": [24.2],
+            "low_pct_true": true,
+            "med_pct_damage_range": [24.2],
+            "med_pct_true": true,
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": "Will true in Low to Mid Percents. Opponent is knocked too high for this to be viable in High Percents."
+        },
+        {
+            "name": "Fast Fall Up Air -> Back Air",
+            "low_pct_damage_range": [23.7],
+            "low_pct_true": true,
+            "med_pct_damage_range": [23.7],
+            "med_pct_true": true,
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": "Can hit Back Air with either a cross up Up Air, or Instantly Reversing it out of a regular Up Air. Will true in Low to Mid Percents. Opponent is knocked too high for this to be viable in High Percents."
         },
         {
             "name": "Fast Fall Up Air -> Up Air",
-            "inputs": "Fast Fall Up Air + Up Air",
-            "approx_dmg": 23,
-            "truality": true,
-            "hitcount": 3,
-            "term": [
-                "Low percents",
-                "Mid percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "You will need to buffer your Up Air, by inputting your Jump + Up Air as soon as you land the Up Air."
+            "low_pct_damage_range": [23.2],
+            "low_pct_true": true,
+            "med_pct_damage_range": [23.2],
+            "med_pct_true": true,
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": "Will true in Low to Mid Percents. Opponent is knocked too high for this to be viable in High Percents."
         },
         {
-            "name": "Shorthop + Neutral Air",
-            "inputs": "Neutral Air",
-            "approx_dmg": 13.5,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Neutral Air is a multi-hit move, you DO NOT need to fast fall this, otherwise you may only get one hit."
+            "name": "Short Hop Neutral Air",
+            "low_pct_damage_range": [13],
+            "low_pct_true": true,
+            "med_pct_damage_range": [13],
+            "med_pct_true": true,
+            "high_pct_damage_range": [13],
+            "high_pct_true": true,
+            "additional_info": "While Lucina's standard Neutral Air is a 2 hit combo, you will gain more from fast falling it and following up with different options."
         },
         {
-            "name": "Shorthop + Neutral Air -> Neutral Air",
-            "inputs": "Neutral Air + Neutral Air",
-            "approx_dmg": 20,
-            "truality": true,
-            "hitcount": 3,
-            "term": [
-                "Low percents",
-                "Mid percents",
-                "High percents"
-            ],
-            "true_on": [
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "DO NOT fast fall the first Neutral Air, upon landing buffer a second Neurtral Air, it's truality is weight and percent dependent."
+            "name": "Short Hop Neutral Air -> Forward Air",
+            "low_pct_damage_range": [23.7],
+            "low_pct_true": true,
+            "med_pct_damage_range": [],
+            "med_pct_true": "Not Viable",
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": "Lucina's Short Hop Neutral Air has too much knockback to combo out of after Low Percents."
         },
         {
-            "name": "Shorthop + Neutral Air -> Forward Air",
-            "inputs": "Neutral Air + Forward Air",
-            "approx_dmg": 20,
-            "truality": true,
-            "hitcount": 3,
-            "term": [
-                "Low percents",
-                "Mid percents",
-                "High percents"
-            ],
-            "true_on": [
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "DO NOT fast fall the first Neutral Air, upon landing buffer a Forward Air, it's truality is weight and percent dependent."
+            "name": "Short Hop Neutral Air -> Neutral Air",
+            "low_pct_damage_range": [26],
+            "low_pct_true": false,
+            "med_pct_damage_range": [26],
+            "med_pct_true": false,
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": "To chase a Neutral Air out of Neutral Air, you will need to be quick, it won't technically be true, but you can catch the oppoent right before their tech situation occurs."
         },
         {
             "name": "Fast Fall Neutral Air -> Down Tilt",
-            "inputs": "Short Hop Neutral Air + Down Tilt",
-            "approx_dmg": 15,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Low percents",
-                "Mid percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Fast Falling the Neutral Air will allow you to only hit the first hit (Neutral Air 1), which pops the opponent upwards and lets you input a tilt."
+            "low_pct_damage_range": [14.5],
+            "low_pct_true": false,
+            "med_pct_damage_range": [14.5],
+            "med_pct_true": false,
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": "This shouldn't be true, and after Mid Percents, your Fast Falling Neutral Air will pop the opponent up too high to be hit by Down Tilt."
         },
         {
             "name": "Fast Fall Neutral Air -> Forward Tilt",
-            "inputs": "Short Hop Neutral Air + Forward Tilt",
-            "approx_dmg": 15,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Low percents",
-                "Mid percents",
-                "High percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Fast Falling the Neutral Air will allow you to only hit the first hit (Neutral Air 1), which pops the opponent upwards and lets you input a tilt."
+            "low_pct_damage_range": [17.5],
+            "low_pct_true": true,
+            "med_pct_damage_range": [17.5],
+            "med_pct_true": true,
+            "high_pct_damage_range": [17.5],
+            "high_pct_true": true,
+            "additional_info": "This will only true if you hit the first hit of Neutral Air, it's final hit has too much knockback."
         },
         {
-            "name": "Fast Fall Neutral Air -> Up Tilt -> Up Air",
-            "inputs": "Short Hop Neutral Air + Up Tilt + Up Air",
-            "approx_dmg": 26,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Low percents",
-                "Mid percents",
-                "High percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Fast Falling the Neutral Air will allow you to only hit the first hit (Neutral Air 1), which pops the opponent upwards and lets you input a tilt. If you buffer your Up Air, the back hitbox should clip your opponent when landing."
+            "name": "Fast Fall Neutral Air -> Up Tilt",
+            "low_pct_damage_range": [13.4],
+            "low_pct_true": true,
+            "med_pct_damage_range": [13.4],
+            "med_pct_true": true,
+            "high_pct_damage_range": [13.4],
+            "high_pct_true": true,
+            "additional_info": "This will only true if you hit the first hit of Neutral Air, it's final hit has too much knockback."
         },
         {
-            "name": "Fast Fall Neutral Air -> Dancing Blade Combo",
-            "inputs": "Short Hop Neutral Air + Side B",
-            "approx_dmg": 18.8,
-            "truality": true,
-            "hitcount": 5,
-            "term": [
-                "Low percents",
-                "Mid percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Fast Falling the Neutral Air will allow you to only hit the first hit (Neutral Air 1), which pops the opponent upwards and lets you input a tilt. Your combo will be depended on your Dancing Blade pattern, but this can lead to more followup strings."
+            "name": "Fast Fall Neutral Air -> Dancing Blade (Any Direction)",
+            "low_pct_damage_range": [20.8, 22],
+            "low_pct_true": false,
+            "med_pct_damage_range": [20.8, 22],
+            "med_pct_true": false,
+            "high_pct_damage_range": [20.8, 22],
+            "high_pct_true": false,
+            "additional_info": "Truality will depend on the directions you, this was tested with basic directions. See Dancing Blade table for more informaiton."
         },
         {
-            "name": "Fast Fall Neutral Air (N2) -> Up Tilt",
-            "inputs": "Full Hop Neutral Air + Up Tilt",
-            "approx_dmg": 20,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Fast Fall your Full Hopped Neutral Air, to avoid the first hit from making contact. Follow up with a buffered Up Tilt."
+            "name": "Fast Fall Down Air (Sourspot) -> Jab 2x",
+            "low_pct_damage_range": [26.8],
+            "low_pct_true": true,
+            "med_pct_damage_range": [],
+            "med_pct_true": "Not Viable",
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": "Hard to true in Low Percents, Lucina's knockback is too high for this to work in Mid - High Percents."
         },
         {
-            "name": "Fast Fall Neutral Air -> Up/Forward Smash",
-            "inputs": "Neutral Air + Up/Forward Smash",
-            "approx_dmg": 19,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "High percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Fast Falling the Neutral Air will allow you to only hit the first hit (Neutral Air 1), which pops the opponent upwards and lets you input a Forward/Up Smash."
+            "name": "Fast Fall Down Air (Sourspot) -> Down Tilt",
+            "low_pct_damage_range": [25],
+            "low_pct_true": false,
+            "med_pct_damage_range": [],
+            "med_pct_true": "Not Viable",
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": "Lucina's knockback is too high for this to work in Mid - High Percents."
         },
         {
-            "name": "Fast Fall Sourspot Down Air -> Jab Jab",
-            "inputs": "Sourspot Down Air + Jab + Jab",
-            "approx_dmg": 23,
-            "truality": true,
-            "hitcount": 3,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Fast Fall a Short Hopped Down Air (to avoid hitting spike frame), Fast Fall and immediately Jab when landing."
+            "name": "Fast Fall Down Air (Sourspot) -> Forward Tilt",
+            "low_pct_damage_range": [25.7],
+            "low_pct_true": false,
+            "med_pct_damage_range": [],
+            "med_pct_true": "Not Viable",
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": "Lucina's knockback is too high for this to work in Mid - High Percents."
         },
         {
-            "name": "Fast Fall Sourspot Down Air -> Down Tilt",
-            "inputs": "Sourspot Down Air + Down Tilt",
-            "approx_dmg": 23,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Fast Fall a Short Hopped Down Air (to avoid hitting spike frame), Fast Fall and immediately input a Down Tilt."
+            "name": "Fast Fall Down Air (Sourspot) -> Up Tilt",
+            "low_pct_damage_range": [21.7],
+            "low_pct_true": false,
+            "med_pct_damage_range": [],
+            "med_pct_true": "Not Viable",
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": "Lucina's knockback is too high for this to work in Mid - High Percents."
         },
         {
-            "name": "Fast Fall Sourspot Down Air -> Forward Tilt",
-            "inputs": "Sourspot Down Air + Forward Tilt",
-            "approx_dmg": 27,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Fast Fall a Short Hopped Down Air (to avoid hitting spike frame), Fast Fall and immediately input a Forward Tilt."
+            "name": "Fast Fall Down Air (Sourspot) -> Dolphin Slash",
+            "low_pct_damage_range": [25.7],
+            "low_pct_true": false,
+            "med_pct_damage_range": [],
+            "med_pct_true": "Not Viable",
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": "Lucina's knockback is too high for this to work in Mid - High Percents."
         },
         {
-            "name": "Fast Fall Sourspot Down Air -> Up Tilt",
-            "inputs": "Sourspot Down Air + Up Tilt",
-            "approx_dmg": 22,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Fast Fall a Short Hopped Down Air (to avoid hitting spike frame), Fast Fall and immediately input an Up Tilt. This can be followed up with aerial strings."
-        },
-        {
-            "name": "Fast Fall Sourspot Down Air -> Dolphin Slash",
-            "inputs": "Sourspot Down Air + Up B",
-            "approx_dmg": 29,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Fast Fall a Short Hopped Down Air (to avoid hitting spike frame), Fast Fall and immediately input a Dolphin Slash"
-        },
-        {
-            "name": "Fast Fall Sourspot Down Air -> Dancing Blade",
-            "inputs": "Sourspot Down Air + Side B",
-            "approx_dmg": 27,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Fast Fall a Short Hopped Down Air (to avoid hitting spike frame), Fast Fall and immediately input a Dancing Blade, this can be followed up based on your Dancing Blade pattern."
-        },
-        {
-            "name": "Fast Fall Forward Air -> Jab Jab",
-            "inputs": "Fast Fall Forward Air + Jab + Jab",
-            "approx_dmg": 21,
-            "truality": true,
-            "hitcount": 3,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "You need to Fast Fall and late hit your Forward Air for this to be true."
+            "name": "Fast Fall Forward Air -> Jab x2",
+            "low_pct_damage_range": [20.4],
+            "low_pct_true": true,
+            "med_pct_damage_range": [],
+            "med_pct_true": "Not Viable",
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": "After Low Percents, this is no longer true, it will however, setup a tech chase and Jab Lock opportunity."
         },
         {
             "name": "Fast Fall Forward Air -> Down Tilt",
-            "inputs": "Fast Fall Forward Air + Down Tilt",
-            "approx_dmg": 22,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "You need to Fast Fall and late hit your Forward Air for this to be true."
+            "low_pct_damage_range": [20.9],
+            "low_pct_true": true,
+            "med_pct_damage_range": [],
+            "med_pct_true": "Not Viable",
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": "After Low Percents, this is no longer true, it will however, setup a tech chase and Jab Lock opportunity."
         },
         {
             "name": "Fast Fall Forward Air -> Up Tilt",
-            "inputs": "Fast Fall Forward Air + Up Tilt",
-            "approx_dmg": 20,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "You need to Fast Fall and late hit your Forward Air for this to be true."
+            "low_pct_damage_range": [19.8],
+            "low_pct_true": true,
+            "med_pct_damage_range": [],
+            "med_pct_true": "Not Viable",
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": "After Low Percents, this is no longer true, it will however, setup a tech chase and Jab Lock opportunity."
         },
         {
             "name": "Fast Fall Forward Air -> Forward Tilt",
-            "inputs": "Fast Fall Forward Air + Up Tilt",
-            "approx_dmg": 25,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "You need to Fast Fall and late hit your Forward Air for this to be true."
-        },
-        {
-            "name": "Fast Fall Forward Air -> Forward Tilt",
-            "inputs": "Fast Fall Forward Air + Up Tilt",
-            "approx_dmg": 25,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "You need to Fast Fall and late hit your Forward Air for this to be true."
+            "low_pct_damage_range": [23.9],
+            "low_pct_true": true,
+            "med_pct_damage_range": [],
+            "med_pct_true": "Not Viable",
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": "After Low Percents, this is no longer true, it will however, setup a tech chase and Jab Lock opportunity."
         },
         {
             "name": "Fast Fall Forward Air -> Neutral Air",
-            "inputs": "Fast Fall Forward Air + Neutral Air",
-            "approx_dmg": 25,
-            "truality": true,
-            "hitcount": 3,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "You need to Fast Fall and late hit your Forward Air for this to be true. Immediately buffer your Neutral Air."
+            "low_pct_damage_range": [23.9],
+            "low_pct_true": true,
+            "med_pct_damage_range": [],
+            "med_pct_true": "Not Viable",
+            "high_pct_damage_range": [],
+            "high_pct_true": "Not Viable",
+            "additional_info": "Will only true in low percents, however, if you're fast, you can grab hit a rising Neutral Air off a missed tech, however this isn't very reliable."
         },
         {
             "name": "Fast Fall Forward Air -> Forward Air",
-            "inputs": "Fast Fall Forward Air + Forward Air",
-            "approx_dmg": 20,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "You need to Fast Fall and late hit your Forward Air for this to be true. Immediately buffer your Forward Air."
+            "low_pct_damage_range": [21.4],
+            "low_pct_true": true,
+            "med_pct_damage_range": [21.3],
+            "med_pct_true": false,
+            "high_pct_damage_range": [21.3],
+            "high_pct_true": false,
+            "additional_info": "Will only true in low percents. If you are fast enough, you can carry people across the stage by catching a missed tech"
         },
         {
-            "name": "Fast Fall Sweetspot Down Air -> Forward Tilt",
-            "inputs": "Fast Fall Down Air (Frame 11) + Forward Tilt",
-            "approx_dmg": 26,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Mid percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "You need to Fast Fall and late hit your Down Air to get the sweetspot, once you hear the Tipper, immediataly buffer Forward Tilt."
+            "name": "Fast Fall Down Air (Sweetspot) -> Up Tilt",
+            "low_pct_damage_range": [21.7],
+            "low_pct_true": false,
+            "med_pct_damage_range": [21.7],
+            "med_pct_true": true,
+            "high_pct_damage_range": [21.7],
+            "high_pct_true": false,
+            "additional_info": "Will stop being true once Down Air has too much knockback."
         },
         {
-            "name": "Fast Fall Sweetspot Down Air -> Up Tilt",
-            "inputs": "Fast Fall Down Air (Frame 11) + Up Tilt",
-            "approx_dmg": 21,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Mid percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "You need to Fast Fall and late hit your Down Air to get the sweetspot, once you hear the Tipper, immediataly buffer Up Tilt."
+            "name": "Fast Fall Down Air (Sweetspot) -> Forward Tilt",
+            "low_pct_damage_range": [27.8],
+            "low_pct_true": false,
+            "med_pct_damage_range": [27.8],
+            "med_pct_true": true,
+            "high_pct_damage_range": [27.8],
+            "high_pct_true": false,
+            "additional_info": "Will stop being true once Down Air has too much knockback."
         },
         {
-            "name": "Fast Fall Sweetspot Down Air -> Up/Forward Smash",
-            "inputs": "Fast Fall Down Air (Frame 11) + Up/Forward Smash",
-            "approx_dmg": 31,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Mid percents",
-                "High percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "You need to Fast Fall and late hit your Down Air to get the sweetspot, once you hear the Tipper, immediataly buffer Up/Forward Smash."
+            "name": "Fast Fall Down Air (Sweetspot) -> Up Air",
+            "low_pct_damage_range": [],
+            "low_pct_true": "Not Viable",
+            "med_pct_damage_range": [],
+            "med_pct_true": "Not Viable",
+            "high_pct_damage_range": [26.1],
+            "high_pct_true": true,
+            "additional_info": "Does not become viable untile the Late Mid and High percents, due to the spike lacking knockback."
         },
         {
-            "name": "Fast Fall Sweetspot Down Air -> Any Buffered Aerial",
-            "inputs": "Fast Fall Down Air (Frame 11) + Buffered Aerial",
-            "approx_dmg": 31,
-            "truality": true,
-            "hitcount": 2,
-            "term": [
-                "Mid percents",
-                "High percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "You need to Fast Fall and late hit your Down Air to get the sweetspot, once you hear the Tipper, immediataly buffer Any Aerial, it's fucking FREE."
+            "name": "Fast Fall Down Air (Sweetspot) -> Dolphin Slash",
+            "low_pct_damage_range": [27.7],
+            "low_pct_true": false,
+            "med_pct_damage_range": [27.7],
+            "med_pct_true": true,
+            "high_pct_damage_range": [22.9],
+            "high_pct_true": true,
+            "additional_info": "Won't be true until Mid Percents, but if you're fast, you can squeeze it out in Low Percents. Make sure to reverse your Dolphin Slash when needed."
         }
     ],
     "throw_combos": [
         {
             "name": "Down Throw -> Up Air",
-            "inputs": "Grab + (pummel) + Down + Up Air",
-            "approx_dmg": 19,
-            "truality": true,
-            "hitcount": 1,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Lucina will throw the opponent backwards, so make sure to account for this slight air drift. You will need to make sure you buffer your aerial option as soon as you throw."
+            "low_pct_damage_range": [16.4],
+            "low_pct_true": false,
+            "med_pct_damage_range": [16.4],
+            "med_pct_true": false,
+            "high_pct_damage_range": [16.4],
+            "high_pct_true": false,
+            "additional_info": "Mostly untrue, and static damage due to Lucina's lack of a tipper. You can always gain extra damage by Pummeling.."
+            
         },
         {
-            "name": "Down Throw -> Forward/Back Air",
-            "inputs": "Grab + (pummel) + Left/Right + Back/Forward Air",
-            "approx_dmg": 17,
-            "truality": true,
-            "hitcount": 1,
-            "term": [
-                "Low percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Lucina will throw the opponent backwards, so make sure to account for this slight air drift. You will need to make sure you buffer your aerial option as soon as you throw."
+            "name": "Down Throw -> Forward Air",
+            "low_pct_damage_range": [15.5],
+            "low_pct_true": false,
+            "med_pct_damage_range": [15.5],
+            "med_pct_true": false,
+            "high_pct_damage_range": [15.5],
+            "high_pct_true": false,
+            "additional_info": "Mostly untrue, and static damage due to Lucina's lack of a tipper. You can always gain extra damage by Pummeling.."
+            
+        },
+        {
+            "name": "Down Throw -> Back Air",
+            "low_pct_damage_range": [16.9],
+            "low_pct_true": false,
+            "med_pct_damage_range": [16.9],
+            "med_pct_true": false,
+            "high_pct_damage_range": [16.9],
+            "high_pct_true": false,
+            "additional_info": "Mostly untrue, and static damage due to Lucina's lack of a tipper. You can always gain extra damage by Pummeling.."
+            
         },
         {
             "name": "Down Throw -> Dolphin Slash",
-            "inputs": "Grab + (pummel) + Up B",
-            "approx_dmg": 13,
-            "truality": true,
-            "hitcount": 1,
-            "term": [
-                "Low percents",
-                "Mid percents",
-                "High percents"
-            ],
-            "true_on": [
-                "Featherweights",
-                "Lightweights",
-                "Middleweights",
-                "Heavyweights",
-                "Super Heaveyweights"
-            ],
-            "info": "Lucina will throw the opponent backwards, so make sure to account for this slight air drift. You will need to make sure you buffer your Dolphin Slash as soon as you throw."
+            "low_pct_damage_range": [13.2],
+            "low_pct_true": true,
+            "med_pct_damage_range": [13.2],
+            "med_pct_true": true,
+            "high_pct_damage_range": [13.2],
+            "high_pct_true": true,
+            "additional_info": "One of the only true combos out of Down Throw, you will have to reverse your Dolphin Slash for it to hit."
+            
         }
-    ],
-    "dancing_blade": []
+    ], 
+    "dancingblade_combos": [
+
+    ]
 }
+

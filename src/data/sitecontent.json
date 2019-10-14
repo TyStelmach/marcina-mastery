@@ -1,5 +1,29 @@
 
 {
+    "static_site": [
+        {
+            "navigation_1_name": "About",
+            "navigation_1_link": "/about",
+            "navigation_2_name": "Techs",
+            "navigation_2_link": "",
+            "navigation_2_subnav_1_name": "Marth",
+            "navigation_2_subnav_1_link": "/marth",
+            "navigation_2_subnav_2_name": "Lucina",
+            "navigation_2_subnav_2_link": "/lucina",
+            "navigation_2_subnav_3_name": "Stages",
+            "navigation_2_subnav_3_link": "/stages",
+            "navigation_3_name": "Docs",
+            "navigation_3_link": "#",
+            "navigation_4_name": "Discord",
+            "navigation_4_link": "#",
+
+            "global_site_alert": "<strong>Please Note:</strong> This site is permanently being updated as the meta can change very quickly. <br> Last Updated on: Dec 1, 2019 <br> To see what was changed, check out <a href='#'>release notes</a>.",
+
+            "footer_text_1": "Marcina Mastery // 2019",
+            "footer_text_2": "All techniques were founded by dedicated members of the Marcina Discord",
+            "footer_text_3": "Content and Website compiled by @Fugazi."
+        }
+    ],
     "homepage": [
         {
             "homepage_hero_header": "Mastering the art of the echo fighters",
@@ -41,11 +65,15 @@
     "marth": [
         {   
             "marth_hero_header": "Marth, the Hero King",
-            "marth_hero_description": "Tipper dawg...",
+            "marth_hero_description": "",
             "marth_hero_image_src": "../../images/Marth-blob-bg.png",
             "marth_hero_image_alt": "Marth, the Hero King",
             "marth_hero_cta_text": "",
             "marth_hero_cta_link": "",
+
+            "marth_callout_header": "Important Marth Details",
+            "marth_callout_description": "You will receivie an auditory and visual cue when you tipper, indicating that you spaced correctly. However, his base knockback will scale depending on whether you tip (sweetspot), or miss-tip (sourspot); because of this, he will have more combo potenial out of sourspotting, but earlier kill potential for sweetspotting.",
+            "marth_callout_cta": "",
             
             "marth_tabber_grounded_combo_header": "Grounded Combos",
             "marth_tabber_grounded_combo_description": "Grounded combos are combo strings that will be initiated from the ground. These can be done out of dashes, but most commonly will start with a tilt attack.",
@@ -62,12 +90,16 @@
 
     "lucina": [
         {
-            "lucina_hero_header": "Lucina, the Warrior Princess",
-            "lucina_hero_description": "Lucina lacks a tipper, so free kills bby",
+            "lucina_hero_header": "Lucina, Princess of ‎Ylisse",
+            "lucina_hero_description": "",
             "lucina_hero_image_src": "../../images/Lucina-blob-bg.png",
             "lucina_hero_image_alt": "Lucina, the Warrior Princess",
             "lucina_hero_cta_text": "",
             "lucina_hero_cta_link": "",
+
+            "lucina_callout_header": "Important Lucina Details",
+            "lucina_callout_description": "Unlike Marth, Lucina does not have a tipper so her damage and knockback will be static throughout her entire hitbox. Because of this, her base knockback will make comboing slightly harder, but in return you have more room for error in spacing. Many players find her more consistent and reliable.",
+            "lucina_callout_cta": "",
             
             "lucina_tabber_grounded_combo_header": "Grounded Combos",
             "lucina_tabber_grounded_combo_description": "Grounded combos are combo strings that will be initiated from the ground. These can be done out of dashes, but most commonly will start with a tilt attack.",

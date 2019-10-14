@@ -4,13 +4,13 @@ import { Table, Row, Col, Image, Button, Tabs, Tab } from 'react-bootstrap'
 
 export default function ComboTable(props) {
     return (
-        <Table responsive striped bordered hover>
+        <Table responsive bordered>
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Life Term</th>
-                    <th>Truality</th>
-                    <th>Damage (Aprx)</th>
+                    <th width={"25%"}>Name</th>
+                    <th width={"15%"}>Life Term</th>
+                    <th width={"10%"}>Truality</th>
+                    <th width={"15%"}>Damage (Aprx)</th>
                     <th>Additional Info</th>
                 </tr>
             </thead>

@@ -1,10 +1,13 @@
 {
-    "id": 24,
-    "name": "Marth",
-    "icon": "",
-    "fallspeed": 1.58,
-    "weightclass": "Middleweight",
-    "tipper": true,
+    "Character ID": 24,
+    "Name": "Marth",
+    "Fallspeed": 1.58,
+    "Initial Dash": 2.255,
+    "Walkspeed": 1.575,
+    "Runspeed": 1.964,
+    "Character Weight": 90,
+    "Weight Class": "Middleweight",
+    "Tipper Location": "Tip of his sword",
     "grounded_combos": [
         {
             "name": "Jab x2",

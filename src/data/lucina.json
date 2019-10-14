@@ -1,10 +1,13 @@
 {
-    "id": 25,
-    "name": "Lucina",
-    "icon": "",
-    "fallspeed": 1.58,
-    "weightclass": "Middleweight",
-    "tipper": false,
+    "Character ID": 25,
+    "Name": "Lucina",
+    "Fallspeed": 1.58,
+    "Initial Dash": 2.255,
+    "Walkspeed": 1.575,
+    "Runspeed": 1.964,
+    "Character Weight": 90,
+    "Weight Class": "Middleweight",
+    "Tipper Location": "None",
     "grounded_combos": [
         {
             "name": "Jab x2",

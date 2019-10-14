@@ -1,0 +1,74 @@
+{
+    "Battlefield": [
+        {
+        "Name": "Battlefield",
+        "Image Source": "",
+        "Stage Type": "Tri-Plat",
+        "Starter Stage": true,
+        "Counter Pick": false,
+        "Stage Slants": false,
+        "Good for Marcina?": "yes"
+        }
+    ],
+    "Final Destination": [
+        {
+        "Name": "Final Destination",
+        "Image Source": "",
+        "Stage Type": "Flat",
+        "Starter Stage": true,
+        "Counter Pick": false,
+        "Stage Slants": false
+        }
+    ],
+    "Smashville": [
+        {
+        "Name": "Smashville",
+        "Image Source": "",
+        "Stage Type": "Center-Plat",
+        "Starter Stage": true,
+        "Counter Pick": false,
+        "Stage Slants": false
+        }
+    ],
+    "Town and City": [
+        {
+        "Name": "Town and City",
+        "Image Source": "",
+        "Stage Type": "Varied-Plat",
+        "Starter Stage": true,
+        "Counter Pick": false,
+        "Stage Slants": false
+        }
+    ],
+    "Pokemon Stadium 2": [
+        {
+        "Name": "Pokemon Stadium 2",
+        "Image Source": "",
+        "Stage Type": "Duo-Plat",
+        "Starter Stage": true,
+        "Counter Pick": false,
+        "Stage Slants": false   
+        }
+    ],
+    "Yoshi's Story": [
+        {
+        "Name": "Yoshi's Story",
+        "Image Source": "",
+        "Stage Type": "Tri-Plat",
+        "Starter Stage": true,
+        "Counter Pick": true,
+        "Stage Slants": true
+        }
+    ],
+    "Kalos Pokemon League": [
+        {
+        "Name": "Kalos Pokemon League",
+        "Image Source": "",
+        "Stage Type": "Duo-Plat",
+        "Starter Stage": true,
+        "Counter Pick": false,
+        "Stage Slants": false
+    }
+
+    ]
+}
